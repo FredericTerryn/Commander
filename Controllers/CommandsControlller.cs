@@ -32,7 +32,7 @@ namespace Commander.Controllers
         }
 
         //GET api/commands/{id} ex: api/commands/5
-        [HttpGet("{id}", Name="GetCommandById")]
+        [HttpGet("{id}", Name = "GetCommandById")]
         public ActionResult<CommandReadDto> GetCommandById(int id)
         {
             var commandItem = _repository.GetCommandById(id);
@@ -49,13 +49,35 @@ namespace Commander.Controllers
         {
             var commandModel = _mapper.Map<Command>(commandCreateDto);
 
-            _repository.CreateCommand(commandModel);  
+            _repository.CreateCommand(commandModel);
             _repository.SaveChanges();
 
-            var CommandReadDto = _mapper.Map<CommandReadDto>(commandModel); 
+            var CommandReadDto = _mapper.Map<CommandReadDto>(commandModel);
 
             //Do this to get a 201 response (instead of 200). 
-            return CreatedAtRoute(nameof(GetCommandById), new {Id= CommandReadDto.Id}, CommandReadDto);
+            return CreatedAtRoute(nameof(GetCommandById), new { Id = CommandReadDto.Id }, CommandReadDto);
         }
+
+        //PUT api/command/{id}
+        [HttpPut("{id}")]
+        public ActionResult UpdateCommand(int id, CommandUpdateDto commandUpdateDto)
+        {
+            var commandModelFromRepo = _repository.GetCommandById(id);
+            if (commandModelFromRepo == null)
+            {
+                return NotFound();
+            }
+
+            //different syntax: both models have data this time. 
+            _mapper.Map(commandUpdateDto, commandModelFromRepo); 
+
+            _repository.UpdateCommand(commandModelFromRepo);
+            _repository.SaveChanges();
+
+            return NoContent();
+        }
+
+        //PATCH api/command/{id}
+      //  public 
     }
 }
