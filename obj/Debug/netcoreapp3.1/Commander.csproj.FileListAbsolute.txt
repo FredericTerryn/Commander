@@ -10,7 +10,6 @@ C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\Command
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\Commander.csprojAssemblyReference.cache
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\staticwebassets\Commander.StaticWebAssets.Manifest.cache
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\staticwebassets\Commander.StaticWebAssets.xml
-C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\Commander.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\Commander.AssemblyInfoInputs.cache
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\Commander.AssemblyInfo.cs
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\Commander.RazorTargetAssemblyInfo.cache
@@ -66,3 +65,7 @@ C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\Command
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyComplete
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Frederic.Terryn\OneDrive - E.S.C. BVBA\Documents\4. Development\CommanderApi\Commander\obj\Debug\netcoreapp3.1\Commander.MvcApplicationPartsAssemblyInfo.cache
